@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Gather action="="/forward_call.php" numDigits="1">
+<Play loop="2">https://gordonbusiness.com/studentloan.mp3</Play>
+</Gather>
+<Say>Sorry, I didn't get your response.</Say>
+<Redirect>vb_menu.xml</Redirect>
+</Response>
