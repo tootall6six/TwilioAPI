@@ -1,0 +1,17 @@
+<?php
+header('Content-type: text/xml');
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+echo '<Response>';
+# @start snippet
+$user_pushed = (int) $_REQUEST['Digits'];
+# @end snippet
+if ($user_pushed == 1)
+{
+echo '<Dial callerId="+15551112222">
+<Number>+18552426127</Number>
+</Dial>';
+}
+else if ($user_pushed == 9)
+{
+echo '<Hangup />';
+}
